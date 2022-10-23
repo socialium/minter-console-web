@@ -148,12 +148,12 @@
                                     {{ $td('Checks', 'common.page-checks') }}
                                 </nuxt-link>
                             </li>
-                            <li class="menu__item u-cell">
-                                <nuxt-link class="menu__link link--hover" :to="$i18nGetPreferredPath('coiner')" @click.native="linkClick">
+<!--                            <li class="menu__item u-cell">
+                                <nuxt-link class="menu__link link&#45;&#45;hover" :to="$i18nGetPreferredPath('coiner')" @click.native="linkClick">
                                     <img class="menu__icon" :src="`${BASE_URL_PREFIX}/img/icon-feature-coin-creation.svg`" alt="" role="presentation">
                                     {{ $td('Coiner', 'common.page-coiner') }}
                                 </nuxt-link>
-                            </li>
+                            </li>-->
                             <li class="menu__item u-cell">
                                 <nuxt-link class="menu__link link--hover" :to="$i18nGetPreferredPath('delegation')" @click.native="linkClick">
                                     <img class="menu__icon" :src="`${BASE_URL_PREFIX}/img/icon-feature-mining.svg`" alt="" role="presentation">
@@ -168,12 +168,12 @@
                                 </nuxt-link>
                             </li>
 -->
-                            <li class="menu__item u-cell">
-                                <nuxt-link class="menu__link link--hover" :to="$i18nGetPreferredPath('masternode')" @click.native="linkClick">
+<!--                            <li class="menu__item u-cell">
+                                <nuxt-link class="menu__link link&#45;&#45;hover" :to="$i18nGetPreferredPath('masternode')" @click.native="linkClick">
                                     <img class="menu__icon" :src="`${BASE_URL_PREFIX}/img/icon-feature-node-management.svg`" alt="" role="presentation">
                                     {{ $td('Masternode', 'common.page-masternode') }}
                                 </nuxt-link>
-                            </li>
+                            </li>-->
                             <li class="menu__item u-cell">
                                 <nuxt-link class="menu__link link--hover" :to="$i18nGetPreferredPath('multisig')" @click.native="linkClick">
                                     <img class="menu__icon" :src="`${BASE_URL_PREFIX}/img/icon-feature-multisignature.svg`" alt="" role="presentation">
@@ -224,25 +224,25 @@
                         </menu>
                     </div>
                     <hr>
-                    <div class="u-container main-content__aside-section">
-                        <ul class="services__list no-list u-grid u-grid--vertical-margin--small">
+<!--                    <div class="u-container main-content__aside-section">
+                        <ul class="services__list no-list u-grid u-grid&#45;&#45;vertical-margin&#45;&#45;small">
                             <li class="u-cell">
-                                <a class="services__link link--hover" :href="`https://status.minter.network${isTestnet ? '/testnet' : ''}`" target="_blank">Status</a>
+                                <a class="services__link link&#45;&#45;hover" :href="`https://status.minter.network${isTestnet ? '/testnet' : ''}`" target="_blank">Status</a>
                             </li>
                             <li class="u-cell">
-                                <a class="services__link link--hover" :href="$options.EXPLORER_HOST" target="_blank">Explorer</a>
+                                <a class="services__link link&#45;&#45;hover" :href="$options.EXPLORER_HOST" target="_blank">Explorer</a>
                             </li>
                             <li class="u-cell">
-                                <a class="services__link link--hover" href="https://www.minter.network/docs#node-api" target="_blank">API</a>
+                                <a class="services__link link&#45;&#45;hover" href="https://www.minter.network/docs#node-api" target="_blank">API</a>
                             </li>
                             <li class="u-cell">
-                                <a class="services__link link--hover" href="https://www.minter.network/docs#minter-sdks" target="_blank">SDK</a>
+                                <a class="services__link link&#45;&#45;hover" href="https://www.minter.network/docs#minter-sdks" target="_blank">SDK</a>
                             </li>
                             <li class="u-cell">
-                                <a class="services__link link--hover" href="https://help.minter.network" target="_blank">Help/FAQ</a>
+                                <a class="services__link link&#45;&#45;hover" href="https://help.minter.network" target="_blank">Help/FAQ</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>-->
                 </aside>
             </transition>
             <main class="main-content__main">
